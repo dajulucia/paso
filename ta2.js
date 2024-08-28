@@ -10,35 +10,35 @@ A.map((datos,index)=>{
 datosArreglos()*/
 
 //for of
-let b=[[8,5,4],[4,6,1]]
-for (let arreglo of b){
-    for(let numero of arreglo){
-        console.log(numero)
+const ejemplo1=[[8,5,4],[4,6,1]]
+for (let arreglo of ejemplo1){
+    for(const nunber of arreglo){
+        console.log(number)
     }
 }
 
 //for in
-let d=[[5,2,9]]
-for(let i in d){
-    for (let elemns in d[1]){
-        console.log(d[i][elemns]);
+const ejemplo2=[[5,2,9][9,8,7]]
+for(const i in ejemplo2){
+    for (const elemns in ejemplo2[1]){
+        console.log(ejemplo2[i][elemns]);
     }
 }
 
 //for each
-let z=[[3,6,9],[4,8,7]]
-z.forEach(arreglo=>{
-    arreglo.forEach(elem=>{
+const z=[[3,6,9],[4,8,7]]
+z.forEach(arreglo_ejemplo3=>{
+    arreglo_ejemplo3.forEach(elem=>{
         console.log(elem)
     })
 })
 //funcion flecha
-let a=[[6,9,2],[3,2,4,]]
-let arreglo=(fle)=>fle.flat();
-console.log(arreglo(a));
+const ejem=[[6,9,2],[3,2,4,]]
+let arreglo_ejemplo4=(fle)=>fle.flat();
+console.log(arreglo_ejemplo4(ejem));
 //while
-let m=[[7,6,8],[4,3,2]]
-let i=0
+const ejemplo5=[[7,6,8],[4,3,2]]
+const i=0
 while(i<g.length){
     let uno=0
     while(uno<g[i].length){
